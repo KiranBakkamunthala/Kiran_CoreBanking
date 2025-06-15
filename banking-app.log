@@ -1,0 +1,38 @@
+2025-06-16T02:36:57.327+08:00  INFO 9136 --- [corebanking] [restartedMain] c.example.core.CorebankingApplication    : Starting CorebankingApplication using Java 17.0.12 with PID 9136 (C:\Users\leela\Documents\kiran_workspace\corebanking\target\classes started by leela in C:\Users\leela\Documents\kiran_workspace\corebanking)
+2025-06-16T02:36:57.327+08:00  INFO 9136 --- [corebanking] [restartedMain] c.example.core.CorebankingApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-06-16T02:36:57.439+08:00  INFO 9136 --- [corebanking] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-16T02:36:57.457+08:00  INFO 9136 --- [corebanking] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+2025-06-16T02:36:57.511+08:00  INFO 9136 --- [corebanking] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-06-16T02:36:57.512+08:00  INFO 9136 --- [corebanking] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-16T02:36:57.512+08:00  INFO 9136 --- [corebanking] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-16T02:36:57.523+08:00  INFO 9136 --- [corebanking] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-16T02:36:57.524+08:00  INFO 9136 --- [corebanking] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 196 ms
+2025-06-16T02:36:57.554+08:00  INFO 9136 --- [corebanking] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-16T02:36:57.555+08:00  INFO 9136 --- [corebanking] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-16T02:36:57.559+08:00  INFO 9136 --- [corebanking] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-16T02:36:57.560+08:00  INFO 9136 --- [corebanking] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2025-06-16T02:36:57.562+08:00  INFO 9136 --- [corebanking] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-22 - Added connection conn211: url=jdbc:h2:mem:bankdb user=SA
+2025-06-16T02:36:57.562+08:00  INFO 9136 --- [corebanking] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2025-06-16T02:36:57.563+08:00  INFO 9136 --- [corebanking] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-22)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-16T02:36:57.590+08:00  INFO 9136 --- [corebanking] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-16T02:36:57.593+08:00  INFO 9136 --- [corebanking] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-16T02:36:57.633+08:00  WARN 9136 --- [corebanking] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-16T02:36:57.685+08:00  INFO 9136 --- [corebanking] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bankdb'
+2025-06-16T02:36:57.693+08:00  INFO 9136 --- [corebanking] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-06-16T02:36:57.713+08:00  INFO 9136 --- [corebanking] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-16T02:36:57.717+08:00  INFO 9136 --- [corebanking] [restartedMain] c.example.core.CorebankingApplication    : Started CorebankingApplication in 0.437 seconds (process running for 2198.696)
+2025-06-16T02:36:57.718+08:00  INFO 9136 --- [corebanking] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-06-16T02:40:27.223+08:00  INFO 9136 --- [corebanking] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-06-16T02:40:27.225+08:00  INFO 9136 --- [corebanking] [Thread-88] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-16T02:40:27.275+08:00  INFO 9136 --- [corebanking] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-16T02:40:27.276+08:00  INFO 9136 --- [corebanking] [Thread-88] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-16T02:40:27.277+08:00  WARN 9136 --- [corebanking] [Thread-88] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-06-16T02:40:27.278+08:00  INFO 9136 --- [corebanking] [Thread-88] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
+2025-06-16T02:40:27.278+08:00  INFO 9136 --- [corebanking] [Thread-88] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
